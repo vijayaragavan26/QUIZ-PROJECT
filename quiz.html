@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Simple Quiz</h2>
+
+    <div id="quizBox">
+        <p id="question"></p>
+
+        <div>
+            <input type="radio" name="option" value="A" id="optA">
+            <label id="labelA" for="optA"></label><br>
+
+            <input type="radio" name="option" value="B" id="optB">
+            <label id="labelB" for="optB"></label><br>
+
+            <input type="radio" name="option" value="C" id="optC">
+            <label id="labelC" for="optC"></label><br>
+
+            <input type="radio" name="option" value="D" id="optD">
+            <label id="labelD" for="optD"></label><br>
+        </div>
+
+        <button onclick="nextQuestion()">Next</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
